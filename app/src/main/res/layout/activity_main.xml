@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/cinza"
+    >
+
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="IDENTIFICADOR DE SALA"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESCOLHA SEMESTRE:"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spn_semestre"
+        android:layout_width="341dp"
+        android:layout_height="41dp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESCOLHA O CURSO:"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spn_curso"
+        android:layout_width="341dp"
+        android:layout_height="41dp"
+        android:textColor="@color/branco"
+    />
+
+    <Button
+        android:id="@+id/btn_pesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:text="PESQUISAR"
+        android:background="#77000000"
+        android:textColor="@color/branco" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_resultado"
+        android:textColor="@color/branco"
+        android:textSize="14pt"
+        />
+
+</LinearLayout>
