@@ -3,25 +3,21 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@color/cinza"
+    android:background="@drawable/sala"
     >
 
     <TextView
         android:layout_marginTop="45dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="IDENTIFICADOR DE SALA"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="16sp"
         android:layout_marginBottom="10dp"
         />
     <TextView
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ESCOLHA SEMESTRE:"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="ESCOLHA SEU SEMESTRE:"
+        android:textColor="@color/branco"
         />
 
     <Spinner
@@ -29,15 +25,16 @@
         android:id="@+id/spn_semestre"
         android:layout_width="341dp"
         android:layout_height="41dp"
-        android:textColor="@color/colorPrimaryDark"
+        android:background="#11000000"
+        android:textColor="@color/branco"
         />
 
     <TextView
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ESCOLHA O CURSO:"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="ESCOLHA SEU CURSO:"
+        android:textColor="@color/branco"
 
         />
 
@@ -46,6 +43,7 @@
         android:id="@+id/spn_curso"
         android:layout_width="341dp"
         android:layout_height="41dp"
+        android:background="#11000000"
         android:textColor="@color/branco"
     />
 
@@ -55,8 +53,9 @@
         android:layout_height="48dp"
         android:layout_marginTop="@android:dimen/app_icon_size"
         android:text="PESQUISAR"
-        android:background="#77000000"
-        android:textColor="@color/branco" />
+        android:background="#11000000"
+        android:textColor="@color/branco"
+        />
 
 
     <TextView
@@ -67,4 +66,11 @@
         android:textSize="14pt"
         />
 
+    <TextView
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cinza"
+        android:text="Aplicativo desenvolvido com intuito de aprovação na disciplina de DESENVOLVIMENTO MOBILE, ministrada por Cesar Ferreira."
+        />
 </LinearLayout>
